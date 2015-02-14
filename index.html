@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mathman</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/mathman.css">
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/mathman.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="main-content">
+				<div class="col-lg-5 col-sm-6 col-lg-offset-1">
+					<p style="display-inline"><img src="images/logo-text.png"></p>
+					<div class="panel panel-default">
+						<div class="panel-body text-center">
+							<h1 id="equation"> </h1>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-body text-center">
+							<button class="btn btn-default checkmm" id="1">1</button>
+							<button class="btn btn-default checkmm" id="2">2</button>
+							<button class="btn btn-default checkmm" id="3">3</button>
+							<button class="btn btn-default checkmm" id="4">4</button>
+							<button class="btn btn-default checkmm" id="5">5</button>
+							<button class="btn btn-default checkmm" id="6">6</button>
+							<button class="btn btn-default checkmm" id="7">7</button>
+							<button class="btn btn-default checkmm" id="8">8</button>
+							<button class="btn btn-default checkmm" id="9">9</button>
+							<button class="btn btn-default checkmm" id="0">0</button>
+						</div>
+					</div>
+					Fill the blanks to complete the equation and <span class="text-success">save</span> the Mathman. <br>Six wrong turns and <span class="text-danger">Game Over!</span>
+					<div class="panel-body text-center" id="notif_body">
+					</div>					
+				</div>
+				<div class="col-lg-5 col-sm-6" id="mathmanimg">
+
+				</div>	
+				<div class="col-lg-10 col-lg-offset-1 col-sm-12 footbar ">
+					<p><small>by </small> Pankaj</p>
+				</div>					
+			</div>
+		</div>		
+		<div class="overlay">
+			<div class="col-lg-4 col-sm-12 col-lg-offset-4" id="main-content">
+				<div class="text-center">					
+					<img src="images/logo.png" class="img-tumbnail">
+					<h4>save the mathman</h4>
+					<p><a class="btn btn-primary play" href="#" role="button">Play Now</a></p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-12 col-lg-offset-4 footbar text-center">
+				<h4><small>by </small> Pankaj</h4>
+			</div>
+		</div>
+	</body>
+</html>
